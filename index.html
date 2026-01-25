@@ -2,26 +2,91 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Обо мне — Дима</title>
+  <title>Dima — Personal Page</title>
   <style>
-    body { font-family: Arial; background:#0f0f0f; color:white; padding:40px; }
-    h1 { color:#00d0ff; }
-    a { color:#00d0ff; }
+    body {
+      margin: 0;
+      background: #0d0d0d;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    img.avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #00eaff;
+    }
+
+    p.bio {
+      font-size: 16px;
+      opacity: 0.8;
+      margin-bottom: 30px;
+    }
+
+    .links a {
+      display: block;
+      background: #111;
+      border: 1px solid #222;
+      padding: 14px;
+      margin: 10px 0;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.2s;
+    }
+
+    .links a:hover {
+      background: #00eaff;
+      color: #000;
+    }
+
+    .footer {
+      margin-top: 40px;
+      opacity: 0.5;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
-  <h1>Привет, я Дима</h1>
-  <p>Я занимаюсь: играми, скриптами, QARC‑лором, творчеством и экспериментами.</p>
 
-  <h2>Мои проекты</h2>
-  <ul>
-    <li>SCP:SL сервер</li>
-    <li>Roblox скрипты</li>
-    <li>QARC вселенная</li>
-    <li>Арт и персонажи</li>
-  </ul>
+  <div class="container">
 
-  <h2>Контакты</h2>
-  <p>Discord: твой ник</p>
+    <!-- AVATAR -->
+    <img class="avatar" src="YOUR_AVATAR_URL_HERE" alt="avatar">
+
+    <h1>Dima</h1>
+
+    <p class="bio">
+      Creator • Script developer • QARC worldbuilder • Pixel art enjoyer  
+    </p>
+
+    <div class="links">
+      <a href="https://discord.com/users/YOUR_ID">Discord</a>
+      <a href="https://github.com/YOUR_GITHUB">GitHub</a>
+      <a href="https://www.youtube.com/@YOUR_CHANNEL">YouTube</a>
+      <a href="https://YOUR_SOCIAL">Other Social</a>
+    </div>
+
+    <div class="footer">
+      © 2026 Dima — Personal Page
+    </div>
+
+  </div>
+
 </body>
 </html>
