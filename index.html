@@ -64,18 +64,10 @@
     .art:before { top: 38px; left: 48px; transform: rotate(-15deg); }
     .art:after { right: 48px; bottom: 38px; font-size: 25px; }
     .pixel-cat {
-      width: 154px; height: 110px; position: relative; background: var(--purple);
-      clip-path: polygon(0 30%, 15% 30%, 15% 0, 30% 0, 30% 18%, 70% 18%, 70% 0, 85% 0, 85% 30%, 100% 30%, 100% 78%, 85% 78%, 85% 92%, 20% 92%, 20% 78%, 0 78%);
-      filter: drop-shadow(0 0 22px #7f49b466);
-    }
-    .pixel-cat:before {
-      content: ""; position: absolute; width: 9px; height: 16px; background: #141414;
-      top: 48px; left: 43px; box-shadow: 49px 0 #141414;
-    }
-    .pixel-cat:after {
-      content: "✦"; position: absolute; color: #141414; font-size: 22px;
-      right: 13px; bottom: 12px;
-    }
+    width: 200px;
+    height: auto;
+    image-rendering: pixelated;
+}
     section { padding: 34px 0 45px; }
     .section-title { color: #f2eff5; font-size: 28px; margin: 0 0 25px; letter-spacing: -.6px; }
     .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
@@ -154,7 +146,7 @@
           </div>
         </div>
         <div class="art" aria-label="Декоративная пиксельная иллюстрация">
-          <div class="pixel-cat"></div>
+          <img src="pixel_cat_transparent.png" class="pixel-cat" alt="Котик">
         </div>
       </section>
 
